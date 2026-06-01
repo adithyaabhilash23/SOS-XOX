@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer subtle bounding ring for grid canvas -->
+    <path
+        android:strokeColor="#1FFFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M 30,30 L 78,30 L 78,78 L 30,78 Z" />
+
+    <!-- Game-board grid lines drawn in thick Neon Cyan -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 46,30 L 46,78 M 62,30 L 62,78 M 30,46 L 78,46 M 30,62 L 78,62" />
+
+    <!-- A gorgeous mini S logo in top-left cell (centered around 38, 38) -->
+    <path
+        android:fillColor="#00E0FF"
+        android:pathData="M 35,35 C 37,35 37,37 35,38 C 33,39 33,41 35,41"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- A gorgeous mini O logo in central cell (centered around 54, 54) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF2A85"
+        android:strokeWidth="3.2"
+        android:pathData="M 54,48.5 A 5.5,5.5 0 1 1 53.99,48.5 Z" />
+
+    <!-- A gorgeous mini S logo in bottom-right cell (centered around 70, 70) -->
+    <path
+        android:fillColor="#00E0FF"
+        android:pathData="M 71,67 C 73,67 73,69 71,70 C 69,71 69,73 71,73"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

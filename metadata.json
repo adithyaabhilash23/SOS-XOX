@@ -1,0 +1,6 @@
+{
+  "name": "SOS & XOX Duel",
+  "description": "An engaging, modern local multiplayer game supporting SOS and XOX modes with match customization, statistics, and smooth Material 3 animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
